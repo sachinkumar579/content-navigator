@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+p {
+  font-size: 23px;
+  color: #413737;
+}
+.header {
+  height: 60px;
+  background-color: #00487c;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header span {
+  font-size: 27px;
+  margin-left: 30px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.top {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 5px;
+}
+
+.name {
+  margin-right: 50px;
+}
+.logout {
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.business-area {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.business-name {
+  width: 250px;
+  border: 1px solid rgb(196, 208, 217);
+  height: 100px;
+  border-radius: 5px;
+  display: flex;
+  color: #0a223d;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.business-name:hover {
+  box-shadow: 0 0 11px rgb(196, 208, 217);
+}
+
+.business-name span {
+  margin: auto;
+  color: #025896;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 200;
+}
+
+.business-name-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+a {
+  text-decoration: none;
+}

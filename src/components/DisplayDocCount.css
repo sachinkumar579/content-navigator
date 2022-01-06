@@ -1,0 +1,8 @@
+.total-count {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 100px;
+  border-radius: 4px;
+  box-shadow: 0 0 11px rgb(196, 208, 217);
+  padding: 10px;
+}

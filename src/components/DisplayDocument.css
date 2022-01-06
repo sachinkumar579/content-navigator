@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+p {
+  font-size: 23px;
+  color: #413737;
+}
+.header {
+  height: 60px;
+  background-color: #00487c;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header span {
+  font-size: 27px;
+  margin-left: 30px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.top {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 5px;
+}
+.name {
+  margin-right: 50px;
+}
+.logout {
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.content-container {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.document-section {
+  border-radius: 4px;
+  box-shadow: 0 0 11px rgb(196, 208, 217);
+  height: 100%;
+}
+
+.search-upload-bar {
+  display: flex;
+  width: 500px;
+  margin-left: 50px;
+  padding: 10px 0px;
+  justify-content: space-around;
+}
+
+.search-upload-bar .upload {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 11px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: 2px solid rgb(196, 208, 217);
+  border-radius: 3px;
+  box-shadow: 0 0 11px rgb(196, 208, 217);
+}
+
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px 26px;
+}
+
+th {
+  border-bottom: 1px solid #cecfd5;
+}
+thead tr:first-child th {
+  border-bottom: 3px solid #cecfd5;
+}
+
+table tbody tr:hover {
+  background-color: rgb(203, 224, 238);
+}
